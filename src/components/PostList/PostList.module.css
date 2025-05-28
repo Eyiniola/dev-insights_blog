@@ -1,0 +1,19 @@
+.postListContainer {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.postListContainer h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+.postsGrid {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 25px;
+}
